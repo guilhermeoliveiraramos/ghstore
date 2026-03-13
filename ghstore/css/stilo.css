@@ -95,12 +95,26 @@ box-shadow: 2px 5px 2px 0px #000000;
 opacity: 1;
 transition: 400ms;
 cursor: pointer;
+border: 2px solid #000000;
 
 }
 .imagem_na_roupas{
     opacity: 0,5;
     cursor: pointer;
 }
-.produtoimg{
-
+.video{
+    text-align: center;
+    background: linear-gradient(#ffffff, #0040ff, #000000);
+}
+/*estilizacao rodape*/
+footer{
+    background: url("../rodape.png");
+    padding: 30px 10px 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: #ffffff;
+}
+.footerlogo{
+    width: 220px;
 }
