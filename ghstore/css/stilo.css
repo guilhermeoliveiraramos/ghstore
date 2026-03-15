@@ -1,12 +1,14 @@
 /* --- Configurações Globais --- */
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
 }
 
 /* --- Cabeçalho (Header) --- */
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .divheader {
@@ -14,13 +16,13 @@ header {
 }
 
 .logo {
-    width: 1%;
+    width: 25%;
     padding: 3% 0 5% 5%; /* Top, Right, Bottom, Left */
 }
 
 /* --- Menu de Navegação --- */
 nav {
-    color: rgb(45, 0, 247);
+    color: rgb(0, 0, 0);
     position: absolute;
     top: 20px; /* Adicionado 'px' que estava faltando */
     right: 5%;
@@ -38,7 +40,6 @@ nav li {
     width: 75%;
     display: block;
    margin: 10%;
-   background: linear-gradient( rgb(0, 247, 33),cornflowerblue)
 }
 
 /* --- Títulos --- */
@@ -118,3 +119,9 @@ footer{
 .footerlogo{
     width: 220px;
 }
+.ROUPASS2{
+    background:linear-gradient(#ffffff, #0040ff, #000000);
+    text-decoration: underline;
+    cursor: context-menu;
+    text-align: start;
+} 
