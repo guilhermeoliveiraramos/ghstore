@@ -1,0 +1,41 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <input type="text" id="busca" placeholder="Buscar produto...">
+<button onclick="buscar()">Buscar</button>
+  <h1>Produtos</h1>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="carrinho.html">Carrinho</a>
+  </nav>
+</header>
+
+<section class="grid">
+    <section id="produtos"></section>
+
+  <div class="card">
+    <img src="img/camiseta.jpg">
+    <h3>Camiseta</h3>
+    <p>R$ 79,90</p>
+    <button onclick="addCarrinho('Camiseta', 79.9)">Adicionar</button>
+  </div>
+
+  <div class="card">
+    <img src="img/calca.jpg">
+    <h3>Calça</h3>
+    <p>R$ 120,00</p>
+    <button onclick="addCarrinho('Calça', 120)">Adicionar</button>
+  </div>
+
+</section>
+
+<script src="js/carrinho.js"></script>
+</body>
+</html>
+
