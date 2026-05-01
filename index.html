@@ -1,91 +1,138 @@
-<html lang="pt-br">
+    <html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <title>GH STORE01</title>
     <link rel="stylesheet" href="css/stylo.css">    
+
+    <script type="text/javascript">
+
+        alert("conheca nossos produtos")
+
+    </script>
+
+<script type="text/javascript">
+    //funcao pop up//
+    function abrirdetalhes(){
+        window.open("telas/pop_contatos.html", "popup", "width-800,height-700")
+    }
+
+</script>
 </head>
 <body>
 
 <header>
-    <input type="text" placeholder="Buscar produto...">
-    <button>Buscar</button>
+     <div class="barraDeBusca"> 
+         <input type="text" class="barra"  placeholder="Buscar produto...">
+         <button class="butaoBusca">Buscar</button>
+     </div>
+     
+     <h1 >GH STORE01</h1>
 
-    <h1>GH STORE01</h1>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="carrinho.html">Carrinho</a>
-    </nav>
+   
+<!--exibicao de barra de navegacao-->
+     <nav class="btn   barradeinteracao" target="_blank">
+         <a class="btn" href="index.html">Home</a>
+         <a class="btn" href="telas/produtos.html">Produtos</a>
+         <a class="btn" href="telas/carrinho.html">Carrinho</a>
+    
+         <li  onclick="abrirdetalhes()" style=cursor:pointer class="btn" > contatos</li>
+     </nav>
 </header>
 
-<section class="banner">
-    <div class="texto">
-        <h2>novas peças 2026</h2>
-        <a href="produtos.html" class="btn">ver produtos</a>
-    </div>
 
-    <img src="img/banner.png" class="boneco">
+
+    <section class="banner">
+<div>
+   
+</div>
+
+
+    <div class="texto">
+        <h2 >Novas Peças 2026</h2>
+       
+    </div>
 </section>
 
+<div>
+<section class="cabecalho">
+  <img src="img/banner.png" class="boneco">
+  <p>
+    
+  </p>
+   <a href="telas/produtos.html" class="btn">Ver Produtos</a>
+</section>
+</div>
+
 <section class="categorias">
-    <h2>Categorias</h2>
+    <h2 >categorias</h2>
+    
+    
 
     <div class="grid-categorias">
-        <a href="produtos.html" class="categoria">
-            <img src="img/camisa.jpg">
+        <a href="telas/produtos.html" class="categoria">
+            <img src="roupas/camisa.jpg">
             <p>Camisetas</p>
         </a>
 
-        <a href="produtos.html" class="categoria">
-            <img src="img/calca.jpg">
+        <a href="telas/produtos.html" class="categoria">
+            <img src="roupas/calca.jpg">
             <p>Calças</p>
         </a>
 
-        <a href="produtos.html" class="categoria">
-            <img src="img/bone[.jpg">
-            <p>Bonés</p>
+        <a href="telas/produtos.html"class="categoria">
+            <img src="roupas/bone[.jpg">
+            <p>acessorios</p>
         </a>
     </div>
 </section>
 
 <section class="destaques">
-    <h2>destaques</h2>
+    <h2 class="secoes">destaques</h2>
 
     <div class="grid">
         <div class="card">
-            <img src="img/polo lala.png.jpeg">
+            <img src="roupas/polo lala.png.jpeg">
             <h3>polo lacoste</h3>
             <p>R$ 145,00</p>
-            <a href="carrinho.html">comprar</a>
+            <a href="telas/carrinho.html">comprar</a>
         </div>
     </div>
 </section>
 
    <main>
           <a href="https://wa.me/5511915023891?text=Olá,%20quero%20comprar" target="_blank">
-                <img src="whats/download.png" alt="whatsapp" class="whatsapp">
+                <img src="icones_apps/whatsapp.png" alt="whatsapp" class="whatsapp">
               </a>
 
 <footer class="footer">
     <img src="img/gh.png" class="footerlogo">
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ghstore01_" data-unique-id="ghstore01_" data-embed-type="creator" style="max-width: 580px; min-width: 188px;" > <section> <a target="_blank" href="https://www.tiktok.com/@ghstore01_?refer=creator_embed">@ghstore01_</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ghstore01_" data-unique-id="ghstore01_" data-embed-type="creator" style="max-width: 580px; min-width: 188px;" > <section> <a target="_blank" href="https://www.tiktok.com/@ghstore01_?refer=creator_embed">@ghstore01_</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js" ></script>
             
 </footer>
 
   <section class="redessc">
-        <h3>redes socias</h3>
+        <h3 class="secoes">redes socias</h3>
+     
     <a href="https://www.instagram.com/ghstore01__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-        <img src="img/download.jpg" alt="instagram" class="redes-sociais">
+        <img src="icones_apps/insta.jpg" alt="instagram" class="redes-sociais">
         
         
         <a href="https://tr.ee/hZGyEVqiq7" target="_blank">
-            <img src="img/tkt.png" alt="tik tok" class="redes-sociais">
+            <img src="icones_apps/tkt.png" alt="tik tok" class="redes-sociais">
             
             
         </a>
     </a>
+    
     </section>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8651725890068!2d-46.56121518992334!3d-23.644999078653797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4328c992748f%3A0xcea3c3e698444297!2sSENAI%20S%C3%A3o%20Caetano%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1774580083525!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe class="mapa">
+     <ul>
+        <!--data-->
+
+        <p class="stilodate">  <script>
+            data = new Date
+            document.write(data.getFullYear())
+        </script></p>
+     </ul>
 </body>
 </html>

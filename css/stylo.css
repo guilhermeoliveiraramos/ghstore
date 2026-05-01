@@ -1,0 +1,238 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgb(0, 0, 0);
+  color: white;
+} 
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.barraDeBusca{
+  display: flex;
+}
+
+.barra{
+  width: 400px;
+}
+
+.butaoBusca{
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: black;
+  margin-left: -100px;
+}
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 20px;
+}
+
+.cabecalho{
+  background: #ffffff ;
+  height: 10px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding : 10%;
+
+  color: #000;
+  
+}
+
+.boneco {
+  height: 420px;
+}
+
+.texto {
+  z-index: 2;
+}
+
+
+.btn {
+    background: linear-gradient(45deg, #000, #333);
+  color: rgb(255, 255, 255);
+  padding: 14px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+button {
+  background: rgb(0, 0, 0);
+  color: rgb(217, 255, 0);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.mais-vendidos{
+    text-align: center; 
+}
+.grid-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.categoria {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.categoria img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.categoria:hover {
+  transform: scale(1.05);
+}
+
+    
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer{
+    background: url("../rodape.png");
+    padding: 30px 10px 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: #ffffff;
+}
+.footerlogo{
+    width: 150px;
+}
+.whatsapp{
+    width: 15px;
+      position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  cursor: pointer;
+}
+.whatsapp:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.redes-sociais{
+    width: 60px;
+}
+.redessc{
+    text-align: center;
+}
+
+.tkt {
+  width: 300px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+ 
+}
+
+.tkt:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+  transition-delay: 3s;
+}
+
+.tk:not(:hover)
+{
+  transition-delay: 0s;
+}
+
+.secoes{
+position: center;
+}
+.secoes:hover
+{
+  transform: translateY(-3px);
+  
+  box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+.barradeinteracao{
+  position:fixed absolute;
+  margin-right: 100;
+}
+
+.stilodate{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  color: chartreuse ;
+}
+
+.txt_pop-up{
+  margin-left: 45%;
+}
+
+.EMAIL_POP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EMAIL_POP img{
+  width: 100%;
+  height: 400px;
+
+}
+
+.EMAIL_TXT{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  height: 40PX;
+  padding-top: 100PX;
+  text-decoration-style: solid ;
+  font-family: 'Times New Roman', Times, serif;
+}
